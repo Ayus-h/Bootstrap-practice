@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.container
+		{
+			background: black;padding:20px;display: grid;grid-template-columns: auto auto auto;
+		}
+		.box 
+		{
+			background:#ffffff;border:1px solid red;padding: 80px;}
+		.one
+		{
+			grid-column-start: 1;grid-column-end: 4;
+		}	
+		.two
+		{
+			grid-column: 1;grid-row-start:2;grid-row-end: 3;
+		}
+		.three
+		{
+			grid-column: 2;grid-row-start:2;grid-row-end: 3;
+		}
+		.four
+		{
+			grid-column: 3;grid-row-start:2;grid-row-end: 4;
+		}
+		.five
+		{
+				grid-column: 1;grid-row-start:3;grid-row-end: 4;grid-template-column:400px; 		}
+
+		
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box one">HEADER</div>
+		<div class="box two">Menu</div>
+		<div class="box three">About</div>
+		<div class="box four">FAQ</div>
+		<div class="box five">Contact</div>
+		<div class="box six">6</div>
+	</div>
+</body>
+</html>
