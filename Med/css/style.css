@@ -1,0 +1,60 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+#home
+{
+	background-image: url("../img/bg-banner.jpg");
+	background-size: cover;
+}
+.slider
+{
+	height:553px; 
+}
+.navbar-brand > img
+{
+	width:120px !important;
+	margin-top: -10px;
+}
+.home
+{
+	background-color: RGBA(13, 70, 83, 0.78);
+	min-height: 650px;
+	padding-top: 15px;
+}
+.navbar-nav > li > a
+{
+	color: #fff;
+}
+.navbar-nav > li > a:hover,.navbar-nav > li > a:focus
+{
+	background-color: rgba(12, 184, 182, 0.21);
+	border:none;
+}
+.slider .container
+{
+	color: #fff;
+}
+.slider .container h1 
+{
+	font-family: 'Candal', sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+
+}
+.slider .container p
+{
+	font-family: 'Open Sans', sans-serif;	
+	line-height: 20px;
+	font-size: 16px;
+}
+ .btn,.btn:hover,.btn:focus
+{
+	margin-top: 30px;
+	padding: 10px 20px;
+	font-size: 12px;
+	background-color: rgba(12, 184, 182, 0.91);
+	border-radius: 3px;
+	color: #fff;
+}
