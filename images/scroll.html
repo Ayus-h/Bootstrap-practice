@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style type="text/css">
+	body{background-color: #222;;}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left :0;
+  padding: 2rem;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  background-color: grey;
+  transition: 0.3s;
+}
+
+.scrolled{
+  background-color: pink;
+  transition: 0.3s;
+}
+
+footer{height: 200vh; width: 100%;}
+</style>
+</head>
+<body>
+
+
+<div class="navbar">
+  scroll up and down to see it in action
+</div>
+<footer></footer>
+<script type="text/javascript">
+	$(function() {
+    var header = $(".navbar");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("scrolled");
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
+  
+});
+</script>
+
+</body>
+</html>
